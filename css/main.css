@@ -69,3 +69,9 @@ form button {
 .site-footer {
   padding: 2rem 0;
 }
+
+.skip:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}
