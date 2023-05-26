@@ -66,6 +66,11 @@ form button {
   text-transform: uppercase;
 }
 
+form button:hover {
+  background-color: green;
+  color: yellow;
+}
+
 .site-footer {
   padding: 2rem 0;
 }
