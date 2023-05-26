@@ -41,7 +41,7 @@
           <li itemprop="Telephone">Phone: 613-000-0000</li>
         </ul>
         <h1 role="heading" itemscope itemtype="https://schema.org/Place">Address</h1>
-        <address itemprop="Address">
+        <address>
           Jambox Studios
           123 Guitar Road
           Musicville, Danceistan
@@ -52,12 +52,12 @@
         <h1>Contact Us</h1>
         <form action="thanks.html" role="form">
           <label>Full Name</label>
-          <input type="text" placeholder="Full Name">
-          <input type="text" placeholder="Email">
-          <input type="text" placeholder="Subject">
-          <b>Your Message</b>
-          <textarea></textarea>
-          <button type="submit">Send</button>
+          <input type="text" placeholder="Full Name" aria-label="Enter Full Name">
+          <input type="text" placeholder="Email" aria-label="Enter Email Address">
+          <input type="text" placeholder="Subject" aria-label="Enter Message Subject">
+          <b aria-label="Enter Your Message">Your Message</b>
+          <textarea aria-label="Area To Write Your Message"></textarea>
+          <button type="submit" role="button">Send</button>
         </form>
       </div>
     </main>
